@@ -6,9 +6,13 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <h1>Lokesh</h1>
-      <span>Lead Engineer</span>
-
+      <h1>
+        <font color="#3399ff">Lokesh</font>
+      </h1>
+      <address>
+        European Life Style Suites, Guadalajara, Jalisco, Mexico
+      </address>
+      <hr />
       <h2>Summary</h2>
     </div>
   );
