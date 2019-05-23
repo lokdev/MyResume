@@ -11,6 +11,8 @@ function App() {
       </h1>
       <address>
         European Life Style Suites, Guadalajara, Jalisco, Mexico
+        <br />
+        MOBILE: +52 3326541444 E-MAIL: dlokesh@outlook.com
       </address>
       <hr />
       <h2>Summary</h2>
