@@ -10,7 +10,7 @@ function App() {
         <font color="#3399ff">LOKESH DHANASEKAR</font>
       </h1>
       <address>
-        European Life Style Suites, Guadalajara, Jalisco, Mexico
+        Av Guadalupe 4885, Jardines de Guadalupe, 45030 Guadalajara, Jal., Mex
         <br />
         MOBILE: +52 3326541444 E-MAIL: dlokesh@outlook.com
       </address>
