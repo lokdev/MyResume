@@ -2,30 +2,30 @@ import React from "react";
 import ReactDom from "react-dom";
 
 class Academic extends React.Component {
+  constructor (props)
+  {
+    super(props);
+  }
   render() {
     return (
       <div className="academic">
         <h2>ACADEMIC RECORD</h2>
         <table border="3">
           <tr>
-            <th>Course</th>
-            <th>Institution</th>
-            <th>Month & Year</th>
-            <th>GPA</th>
+            <td>Course</td>
+            <td>Institution</td>
+            <td>Month & Year</td>
+            <td>GPA</td>
           </tr>
-
-          <tr>
-            <th>Master of Computer Applications</th>
-            <th>College of Engineering Guindy, Anna University</th>
-            <th>May 2014</th>
-            <th>7.56</th>
+        {this.props.academic.map(academic => {
+          return <tr>
+            <td>{academic.course}</td>
+            <td>{academic.institution}</td>
+            <td>{academic.month_Year}</td>
+            <td>{academic.gPA}</td>
           </tr>
-          <tr>
-            <th>Bachelor of Computer Applications</th>
-            <th>Annai Veilankannis Arts & Scince College</th>
-            <th>May 2011</th>
-            <th>70.84</th>
-          </tr>
+        })}
+       
         </table>
       </div>
     );
