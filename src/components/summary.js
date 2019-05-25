@@ -7,6 +7,9 @@ class Summary extends React.Component {
   }
 
   render() {
+    if (this.props.data == undefined) {
+      return <div />;
+    }
     return (
       <div className="summary">
         <h2>Summary</h2>

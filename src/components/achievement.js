@@ -6,6 +6,10 @@ class Achievement extends React.Component {
     super(props);
   }
   render() {
+    if (this.props.achievement == undefined) {
+      return <div />;
+    }
+
     return (
       <div className="achievement">
         <h2>ACHIEVEMENTS</h2>
