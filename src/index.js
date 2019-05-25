@@ -9,6 +9,7 @@ import Academic from "./components/academic";
 import Achievement from "./components/achievement";
 import Name from "./components/name";
 import Address from "./components/address";
+import Profilepic from "./components/profilepic";
 
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -96,31 +97,40 @@ export default class App extends React.Component {
     return (
       <div className="container">
         <div className="App">
-          <div className="left-panel">Left Panel</div>
-          <div className="right-panel">
-            <Name
-              firstname={this.state.resume.firstname}
-              lastname={this.state.resume.lastname}
-            />
-            <Address
-              address={this.state.resume.address}
-              mobile={this.state.resume.mobile}
-              email={this.state.resume.email}
-            />
-            <Summary data={this.state.resume.summary} />
-            <ProfessionalExperience
-              company={this.state.resume.professionalexperience}
-            />
-            <NatureOfWork natureofwork={this.state.resume.natureofwork} />
-            <RolesResponsibility
-              roles={this.state.resume.rolesresponsibilities}
-            />
-            <Project
-              project={this.state.resume.project}
-              projectdesc={this.state.resume.projectdesc}
-            />
-            <Academic academic={this.state.resume.academic} />
-            <Achievement achievement={this.state.resume.achievement} />
+          <div class="row">
+            <div class="col-sm-4 bg-secondary text-white">
+              <Profilepic />
+              <Address
+                address={this.state.resume.address}
+                mobile={this.state.resume.mobile}
+                email={this.state.resume.email}
+              />
+
+              <NatureOfWork natureofwork={this.state.resume.natureofwork} />
+              <ProfessionalExperience
+                company={this.state.resume.professionalexperience}
+              />
+            </div>
+            <div class="col-sm-6 bg-white">
+              <div className="right-panel">
+                <Name
+                  firstname={this.state.resume.firstname}
+                  lastname={this.state.resume.lastname}
+                />
+
+                <Summary data={this.state.resume.summary} />
+
+                <RolesResponsibility
+                  roles={this.state.resume.rolesresponsibilities}
+                />
+                <Project
+                  project={this.state.resume.project}
+                  projectdesc={this.state.resume.projectdesc}
+                />
+                <Academic academic={this.state.resume.academic} />
+                <Achievement achievement={this.state.resume.achievement} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

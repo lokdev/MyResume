@@ -2,8 +2,7 @@ import React from "react";
 import ReactDom from "react-dom";
 
 class Achievement extends React.Component {
-  constructor (props){
-
+  constructor(props) {
     super(props);
   }
   render() {
@@ -11,10 +10,9 @@ class Achievement extends React.Component {
       <div className="achievement">
         <h2>ACHIEVEMENTS</h2>
         <ul>
-          {this.props.achievement.map (record => {
-            return <li>{record}</li>
+          {this.props.achievement.map(record => {
+            return <li>{record}</li>;
           })}
-          
         </ul>
       </div>
     );
