@@ -7,6 +7,8 @@ class Address extends React.Component {
   }
   render() {
     return (
+      <div class="card">
+  <div class="card-body">
       <div className="Address">
         <address>
           {this.props.address}
@@ -14,7 +16,8 @@ class Address extends React.Component {
           Mobile :{this.props.mobile}
           <span> E-Mail{this.props.email}</span>
         </address>
-        <hr />
+      </div>
+      </div>
       </div>
     );
   }

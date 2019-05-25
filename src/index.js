@@ -10,15 +10,20 @@ import Achievement from "./components/achievement";
 import Name from "./components/name";
 import Address from "./components/address";
 
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import "./styles.css";
+
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       resume: {
-        firstname: "Lokesh",
-        lastname: "Dhanasekar",
+        firstname: "LOKESH",
+        lastname: "DHANASEKAR",
         address: [
           "Av Guadalupe 4885, Jardines de Guadalupe",
           "45030 Guadalajara, Jal., Mex"
@@ -89,27 +94,12 @@ projectdesc:
 
   render() {
     return (
+      <div className="container">
       <div className="App">
-        <Name
-          firstname={this.state.resume.firstname}
-          lastname={this.state.resume.lastname}
-        />
-        <Address
-          address={this.state.resume.address}
-          mobile={this.state.resume.mobile}
-          email={this.state.resume.email}
-        />
-        <Summary data={this.state.resume.summary} />
-        <ProfessionalExperience 
-        company ={this.state.resume.professionalexperience}/>
-        <NatureOfWork 
-        natureofwork = {this.state.resume.natureofwork}/>
-        <RolesResponsibility 
-        roles={this.state.resume.rolesresponsibilities}/>
-        <Project project = {this.state.resume.project}
-        projectdesc={this.state.resume.projectdesc}/>
-        <Academic academic = {this.state.resume.academic} />
-        <Achievement achievement={this.state.resume.achievement} />
+
+      <div></div>
+        <div></div>
+      </div>
       </div>
     );
   }

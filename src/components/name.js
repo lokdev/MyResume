@@ -11,7 +11,7 @@ class Name extends React.Component {
       <div className="Name">
         <h1>
           <font color="#3399ff">
-            {this.props.firstname} {this.props.lastname}
+          <span class="badge badge-pill badge-primary">{this.props.firstname} {this.props.lastname}</span>
           </font>
         </h1>
       </div>
