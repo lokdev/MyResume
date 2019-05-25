@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/MyResume/static/js/runtime~main.17fc0005.js"
   },
   {
-    "revision": "251fbefabeba6ad9c47c",
-    "url": "/MyResume/static/js/main.182a6fd7.chunk.js"
+    "revision": "522549066e92980ecb11",
+    "url": "/MyResume/static/js/main.301ddf23.chunk.js"
   },
   {
-    "revision": "fbfa00a5c1c3ef5ffad6",
-    "url": "/MyResume/static/js/2.2a54cd0c.chunk.js"
+    "revision": "e13d3135c2741ab98199",
+    "url": "/MyResume/static/js/2.9c7f8869.chunk.js"
   },
   {
-    "revision": "251fbefabeba6ad9c47c",
+    "revision": "522549066e92980ecb11",
     "url": "/MyResume/static/css/main.3665abcd.chunk.css"
   },
   {
-    "revision": "fbfa00a5c1c3ef5ffad6",
+    "revision": "e13d3135c2741ab98199",
     "url": "/MyResume/static/css/2.8f5e35e7.chunk.css"
   },
   {
-    "revision": "e0bdc1af327959f98a87b779eb034d8f",
+    "revision": "29f9b8d573f525d5737fa83771bbc8a2",
     "url": "/MyResume/index.html"
   }
 ];
