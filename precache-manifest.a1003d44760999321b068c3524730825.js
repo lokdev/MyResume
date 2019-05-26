@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/MyResume/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "4660e8f2e362b7a176a7",
+    "revision": "79e9f6a14696f2791d11",
     "url": "/MyResume/static/css/main.53dcba36.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/MyResume/static/media/lokesh.0372240c.jpeg"
   },
   {
-    "revision": "4660e8f2e362b7a176a7",
-    "url": "/MyResume/static/js/main.92c47090.chunk.js"
+    "revision": "79e9f6a14696f2791d11",
+    "url": "/MyResume/static/js/main.7b1616c2.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/MyResume/static/css/2.dbc064da.chunk.css"
   },
   {
-    "revision": "67ce554b34c10979d87dcffef14a9c19",
+    "revision": "96aef55d806899dff53b07e6b3eee808",
     "url": "/MyResume/index.html"
   }
 ];
