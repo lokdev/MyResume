@@ -7,12 +7,12 @@ class Name extends React.Component {
 
   render() {
     return (
-      <div className="Name text-center">
+      <div className="Name text-center mb-5 mt-5">
         <h1 className="display-4">
           <font color="#3399ff">
-            <span class="badge badge-pill badge-primary profile-name">
+           
               {this.props.firstname} {this.props.lastname}
-            </span>
+            
           </font>
         </h1>
       </div>
