@@ -9,7 +9,8 @@ class NatureOfWork extends React.Component {
       <div class="card mb-5 rounded-pill text-center">
         <div class="card-body bg-secondary">
           <div className="natureOfWork">
-            <h2>NATURE OF WORK</h2>
+          <font color="#cc0000">
+            <h2>NATURE OF WORK</h2></font>
             {this.props.natureofwork}
           </div>
         </div>
