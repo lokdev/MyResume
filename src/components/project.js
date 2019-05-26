@@ -11,16 +11,29 @@ class Project extends React.Component {
 
     return (
       <div className="project">
-        <h2>PROJECT</h2>
+        <div class="card bg-light mb-3">
+          <div class="card-header text-center"> 
+          <h3 class="card-title text-uppercase">PROJECT</h3>
+          </div>
+            <div class="card-body">
+              <div class="card-text"></div>
         {this.props.project.map(project => {
           return <p>{project}</p>;
         })}
+        <div class="card bg-light mb-3">
+          <div class="card-header text-center"> 
+          <h3 class="card-title text-uppercase">Description</h3>
+          </div>
         <ul>
           {this.props.projectdesc.map(projectdesc => {
             return <li>{projectdesc}</li>;
           })}
         </ul>
-      </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
     );
   }
 }

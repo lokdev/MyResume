@@ -11,13 +11,21 @@ class RolesResponsibility extends React.Component {
 
     return (
       <div className="roles-responsibility">
-        <h2>ROLES & RESPONSIBILITES</h2>
-        <ul>
+        <div class="card bg-light mb-3">
+          <div class="card-header text-center"> 
+          <h3 class="card-title text-uppercase">ROLES & RESPONSIBILITES</h3>
+          </div>
+            <div class="card-body">
+              <div class="card-text">
+             <ul>
           {this.props.roles.map(rolesresp => {
             return <li>{rolesresp}</li>;
           })}
         </ul>
-      </div>
+        </div>
+        </div>
+        </div>
+        </div>
     );
   }
 }

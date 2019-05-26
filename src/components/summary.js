@@ -11,12 +11,18 @@ class Summary extends React.Component {
     }
     return (
       <div className="summary">
-        <h2>Summary</h2>
-        <ul>
-          {this.props.data.map(jaba => {
-            return <li>{jaba}</li>;
-          })}
-        </ul>
+        <div class="card bg-light mb-3">
+          <div class="card-header text-center"> <h3 class="card-title text-uppercase">Summary</h3></div>
+            <div class="card-body">
+              <div class="card-text">
+              <ul>
+                {this.props.data.map(sumarydata => {
+                return <li>{sumarydata}</li>;
+                })}
+               </ul>
+               </div>
+            </div>
+        </div>
       </div>
     );
   }

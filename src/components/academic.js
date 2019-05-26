@@ -12,8 +12,13 @@ class Academic extends React.Component {
 
     return (
       <div className="academic">
-        <h2>ACADEMIC RECORD</h2>
-        <table border="3">
+        <div class="card bg-light mb-3">
+          <div class="card-header text-center"> 
+          <h3 class="card-title text-uppercase">ACADEMIC RECORD</h3>
+          </div>
+            <div class="card-body">
+              <div class="card-text"></div>
+               <table border="3">
           <tr>
             <td>Course</td>
             <td>Institution</td>
@@ -31,6 +36,8 @@ class Academic extends React.Component {
             );
           })}
         </table>
+        </div>
+        </div>
       </div>
     );
   }

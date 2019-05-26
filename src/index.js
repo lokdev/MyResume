@@ -10,9 +10,11 @@ import Achievement from "./components/achievement";
 import Name from "./components/name";
 import Address from "./components/address";
 import Profilepic from "./components/profilepic";
+import Social from "./components/social";
 
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.css";
 import axios from "axios";
 
 import "./styles.css";
@@ -58,7 +60,7 @@ export default class App extends React.Component {
                 company={this.state.resume.professionalexperience}
               />
             </div>
-            <div class="col-sm-6 bg-white">
+            <div class="col-sm-8 bg-white">
               <div className="right-panel">
                 <Name
                   firstname={this.state.resume.firstname}
@@ -76,11 +78,11 @@ export default class App extends React.Component {
                 />
                 <Academic academic={this.state.resume.academic} />
                 <Achievement achievement={this.state.resume.achievement} />
+                <Social />
               </div>
             </div>
             <div class="col-sm-10 text-white"><a href="./src/components/Lokesh_Resume.pdf" className="download-button" download>Download Resume</a>
-            
-            </div>
+                </div>
           </div> 
           
         </div>
