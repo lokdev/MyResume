@@ -31,8 +31,7 @@ export default class App extends React.Component {
         `https://raw.githubusercontent.com/lokdev/my-resume-content/master/resume.json`
       )
       .then(res => {
-        console.log(res);
-        const resume = res.data;
+              const resume = res.data;
         this.setState({ resume });
       });
   }
@@ -79,7 +78,11 @@ export default class App extends React.Component {
                 <Achievement achievement={this.state.resume.achievement} />
               </div>
             </div>
-          </div>
+            <div class="col-sm-10 text-white"><a href="./src/components/Lokesh_Resume.pdf" className="download-button" download>Download Resume</a>
+            
+            </div>
+          </div> 
+          
         </div>
       </div>
     );

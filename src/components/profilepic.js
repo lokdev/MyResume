@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDom from "react-dom";
 import logo from "./lokesh.jpeg";
 import Image from "react-image-resizer";
 

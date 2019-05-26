@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDom from "react-dom";
 
 class ProfessionalExperience extends React.Component {
   constructor(props) {
