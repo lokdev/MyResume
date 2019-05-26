@@ -78,15 +78,13 @@ export default class App extends React.Component {
                 />
                 <Academic academic={this.state.resume.academic} />
                 <Achievement achievement={this.state.resume.achievement} />
-                <Social />
+                
               </div>
             </div>
-            <div class="col-sm-10 text-white"><a href="./src/components/Lokesh_Resume.pdf" className="download-button" download>Download Resume</a>
                 </div>
+            <div className="text-center"><Social /></div>
           </div> 
-          
-        </div>
-      </div>
+</div>
     );
   }
 }
