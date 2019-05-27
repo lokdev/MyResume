@@ -30,7 +30,7 @@ export default class Social extends React.Component {
         </a>
         <a href="mailto:dlokesh@outlook.com">
           <i
-            class="fab fa-envelope  fa-3x ml-2"
+            class="fas fa-envelope  fa-3x ml-2"
             data-toggle="tooltip"
             data-placement="top"
             title="Mail to Lokesh"
@@ -38,7 +38,7 @@ export default class Social extends React.Component {
         </a>
         <a href="Lokesh_Resume.pdf" download>
           <i
-            class="fab fa-download fa-3x ml-2"
+            class="fas fa-download fa-3x ml-2"
             data-toggle="tooltip"
             data-placement="top"
             title="Download the Resume"
