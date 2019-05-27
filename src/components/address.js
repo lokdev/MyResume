@@ -10,12 +10,12 @@ class Address extends React.Component {
       <div class="card mb-5 rounded-pill">
         <div class="card-body bg-secondary text-center">
           <div className="Address">
-          <font color="#cc0000">
-            <h2 className="text-uppercase">Contact</h2></font>
+            <h2 className="text-uppercase text-light">Contact</h2>
             <address>
               {this.props.address}
               <br />
-              Mobile : {this.props.mobile}<br />
+              Mobile : {this.props.mobile}
+              <br />
               <span> E-Mail : {this.props.email}</span>
             </address>
           </div>

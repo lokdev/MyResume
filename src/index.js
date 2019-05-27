@@ -14,7 +14,7 @@ import Social from "./components/social";
 
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "font-awesome/css/font-awesome.css";
+//import "font-awesome/css/font-awesome.css";
 import axios from "axios";
 
 import "./styles.css";
@@ -33,7 +33,7 @@ export default class App extends React.Component {
         `https://raw.githubusercontent.com/lokdev/my-resume-content/master/resume.json`
       )
       .then(res => {
-              const resume = res.data;
+        const resume = res.data;
         this.setState({ resume });
       });
   }
@@ -75,16 +75,19 @@ export default class App extends React.Component {
                 <Project
                   project={this.state.resume.project}
                   projectdesc={this.state.resume.projectdesc}
+                  project1={this.state.resume.project1}
+                  projectdesc1={this.state.resume.projectdesc1}
                 />
                 <Academic academic={this.state.resume.academic} />
                 <Achievement achievement={this.state.resume.achievement} />
-                
               </div>
             </div>
-                </div>
-            <div className="text-center"><Social /></div>
-          </div> 
-</div>
+          </div>
+          <div className="text-center">
+            <Social />
+          </div>
+        </div>
+      </div>
     );
   }
 }
