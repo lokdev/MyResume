@@ -1,12 +1,10 @@
 import React from "react";
 
 class Summary extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+ 
 
   render() {
-    if (this.props.data == undefined) {
+    if (this.props.data === undefined) {
       return <div />;
     }
     return (

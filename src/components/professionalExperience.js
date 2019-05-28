@@ -1,9 +1,6 @@
 import React from "react";
 
 class ProfessionalExperience extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div class="card mb-5 rounded-pill">

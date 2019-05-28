@@ -1,12 +1,9 @@
 import React from "react";
-import ReactDom from "react-dom";
 
 class Academic extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
   render() {
-    if (this.props.academic == undefined) {
+    if (this.props.academic === undefined) {
       return <div />;
     }
 

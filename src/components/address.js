@@ -1,10 +1,7 @@
 import React from "react";
-import ReactDom from "react-dom";
 
 class Address extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+ 
   render() {
     return (
       <div class="card mb-5 rounded-pill">

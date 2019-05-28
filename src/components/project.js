@@ -1,11 +1,9 @@
 import React from "react";
 
 class Project extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
   render() {
-    if (this.props.project == undefined) {
+    if (this.props.project === undefined) {
       return <div />;
     }
 

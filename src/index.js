@@ -39,7 +39,7 @@ export default class App extends React.Component {
   }
 
   render() {
-    if (this.state.resume == undefined) {
+    if (this.state.resume === undefined) {
       return <div className="container" />;
     }
 

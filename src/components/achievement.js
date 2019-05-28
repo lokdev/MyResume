@@ -1,12 +1,9 @@
 import React from "react";
-import ReactDom from "react-dom";
 
 class Achievement extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+ 
   render() {
-    if (this.props.achievement == undefined) {
+    if (this.props.achievement === undefined) {
       return <div />;
     }
 

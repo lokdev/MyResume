@@ -1,11 +1,9 @@
 import React from "react";
 
 class RolesResponsibility extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
   render() {
-    if (this.props.roles == undefined) {
+    if (this.props.roles === undefined) {
       return <div />;
     }
 
