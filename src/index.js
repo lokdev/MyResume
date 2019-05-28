@@ -11,11 +11,12 @@ import Name from "./components/name";
 import Address from "./components/address";
 import Profilepic from "./components/profilepic";
 import Social from "./components/social";
+import json from "./components/data.json";
 
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import "font-awesome/css/font-awesome.css";
-import axios from "axios";
+//import axios from "axios";
 
 import "./styles.css";
 
@@ -23,19 +24,8 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      resume: {}
+      resume: json
     };
-  }
-
-  componentWillMount() {
-    axios
-      .get(
-        `https://raw.githubusercontent.com/lokdev/my-resume-content/master/resume.json`
-      )
-      .then(res => {
-        const resume = res.data;
-        this.setState({ resume });
-      });
   }
 
   render() {
