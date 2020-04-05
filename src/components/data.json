@@ -2,20 +2,22 @@
   "firstname": "LOKESH",
   "lastname": "DHANASEKAR",
   "address": [
-    "Av Guadalupe 4885, Jardines de Guadalupe",
-    "45030 Guadalajara, Jal., Mex"
+    "29/9, Nandhi Loop Street,",
+    " CIT Nagar, Chennai 600035"
   ],
-  "mobile": "+52 3326541444",
+  "mobile": "91 9677116689",
   "email": "dlokesh@outlook.com",
   "summary": [
-    "Four plus years of experience as full stack developer in application development using J2EE and IBM ETL DataStage, while implementation, testing and troubleshooting.",
+    "Five plus years of experience as full stack developer in application development using J2EE and IBM ETL Data Stage, while implementation, testing and troubleshooting.",
     "Strong knowledge of technical specifications, workflow development and QA.",
     "Participated in analyzing business requirements and recommending appropriate technologies.",
     "Good experience in coordinating with various teams like Deployment, Testing Team to speed up Development process.",
     "Proficient in communication, interpersonal and organizational skills."
   ],
   "professionalexperience": [
-    "HCL Technologies - Senior Software Engineer (February 2015 – Till Now)"
+    "HCL Technologies - Senior Software Engineer (February 2015 – Till Now) ",
+    "HCL Technologies Mexico (July 2017 – June 2019) ",
+    "Holding B1/B2 Visa (USA) – Valid till 2028."
   ],
   "natureofwork": "Developed JAVA application which process and monitor the activities performed in the process and load the file details in the database using various REST API’s.",
   "rolesresponsibilities": [
@@ -30,21 +32,29 @@
   ],
   "project": [
     "Title : AML - Customer Due Diligence",
-    "Technology Used : Java, IBM DataStage, REST API, SQL, PowerShell script",
-    "Framework : Ext JS, Wicket",
-    "IDE : Eclipse & IBM DataStage",
     "Client : The United Services Automobile Association(USAA)",
-    "Database : Oracle 11g, DB2 and ERDC",
+    "Technology Used : Java, React JS, IBM DataStage, REST API, SQL",
+    "Framework : Spring Boot, Wicket",
+    "IDE : IntelliJ, Eclipse, IBM DataStage",
+    "Version Control : RTC, GIT",
+    "Log Checker : KIBANA, Splunk",
+    "Deployment Tools : UCD, Open shift, AWC",
+    "Devops Tools : Kubernetes-docker and AWS",
+    "Database : Oracle 11g, DB2",
     "Domain : Anti Money Laundering",
-    "Operating System : Windows 7 & UNIX",
-    "Team Size : 3",
+    "Operating System : Windows 10 & UNIX",
+    "Team Size : 2",
     "Role : Developer"
   ],
   "projectdesc": [
-    "Created USAA net banking website which ask customer to answer the KYC details.",
-    "REST API’s are used to retrieve and update the data in database.",
-    "Handling ETL jobs all the extract, transformation and loading the data in more ways using IBM DataStage tool.",
-    "Created various control – M jobs to automate the process."
+    "Created Micro Services for USAA Banking which collects customer’s KYC details for AML verification purpose using Spring boot.",
+    "Created UI using REACT and EXT JS based front end application which handles the RESTful API’s.",
+    "Created/Managed many ETL jobs by using IBM DataStage tool for AML data collection purpose.",
+    "Created multiple watchers using elastic query in Kibana dashboard to monitor the production issues.",
+    "Basic Knowledge in MDB and KAFKA.",
+    "Basic Knowledge in Kubernetes-Docker and Amazon web services.",
+    "Created various control – M jobs to automate the process.",
+    "Handled deployment procedures for Java Application and DataStage Jobs using IBM Urban Code Deploy."
   ],
 
   "project1": [
