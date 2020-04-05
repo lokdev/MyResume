@@ -41,7 +41,7 @@ export default class Social extends React.Component {
             class="fas fa-download fa-3x ml-2"
             data-toggle="tooltip"
             data-placement="top"
-            title="Download the Resume"
+            title="Download My Resume"
           />
         </a>
       </div>
