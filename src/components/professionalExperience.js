@@ -7,7 +7,11 @@ class ProfessionalExperience extends React.Component {
         <div class="card-body bg-secondary text-center">
           <div className="professional-experience text-light">
             <h2>PROFESSIONAL EXPERIENCE</h2>
-            {this.props.company}
+            {this.props.company} <br />
+            <br />
+            {this.props.company1} <br />
+            <br />
+            {this.props.company2}
           </div>
         </div>
       </div>

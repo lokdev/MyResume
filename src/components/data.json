@@ -14,11 +14,9 @@
     "Good experience in coordinating with various teams like Deployment, Testing Team to speed up Development process.",
     "Proficient in communication, interpersonal and organizational skills."
   ],
-  "professionalexperience": [
-    "HCL Technologies - Senior Software Engineer (February 2015 – Till Now) ",
-    "HCL Technologies Mexico (July 2017 – June 2019) ",
-    "Holding B1/B2 Visa (USA) – Valid till 2028."
-  ],
+  "professionalexperience": "HCL Technologies - Senior Software Engineer (February 2015 – Till Now) ",
+  "professionalexperience1": "HCL Technologies Mexico (July 2017 – June 2019) ",
+  "professionalexperience2": "Holding B1/B2 Visa (USA) – Valid till 2028.",
   "natureofwork": "Developed JAVA application which process and monitor the activities performed in the process and load the file details in the database using various REST API’s.",
   "rolesresponsibilities": [
     "Developed complex applications and updates throughout SDLC, including analyzing business requirements, developing technical specifications, planning, coding, testing implementation and QA.",

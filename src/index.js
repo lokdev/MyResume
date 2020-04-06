@@ -48,6 +48,8 @@ export default class App extends React.Component {
               <NatureOfWork natureofwork={this.state.resume.natureofwork} />
               <ProfessionalExperience
                 company={this.state.resume.professionalexperience}
+                company1={this.state.resume.professionalexperience1}
+                company2={this.state.resume.professionalexperience2}
               />
             </div>
             <div class="col-sm-8 bg-white">
