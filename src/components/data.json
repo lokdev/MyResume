@@ -2,32 +2,24 @@
   "firstname": "LOKESH",
   "lastname": "DHANASEKAR",
   "address": [
-    "29/6, Nandhi Loop Street,",
-    " CIT Nagar, Chennai 600035"
+    "4/7, Indira Gandhi Street,",
+    " New Perungalathur, Chennai 600063"
   ],
-  "mobile": "91 9677116689",
+  "mobile": "+91-9677116689",
   "email": "dlokesh@outlook.com",
   "summary": [
-    "Five plus years of experience as full stack developer in application development using J2EE and IBM ETL Data Stage, while implementation, testing and troubleshooting.",
+    "Seven plus years of experience as full stack developer in the development of web-based and application software using Java, J2EE, Web Services (RESTful), Spring Boot, Microservices, JDBC, React JS and IBM ETL Data Stage, while implementation, testing and troubleshooting.",
     "Strong knowledge of technical specifications, workflow development and QA.",
+    "Worked in SDLC Agile, Kanban agile methodologies.",
+    "Certified in Amazon web services.",
     "Participated in analyzing business requirements and recommending appropriate technologies.",
     "Good experience in coordinating with various teams like Deployment, Testing Team to speed up Development process.",
-    "Proficient in communication, interpersonal and organizational skills."
+    "Proficient in communication, interpersonal and organizational skills.",
+    "Good knowledge and Experience in Customization, Enhancements and in testing the Developments."
   ],
-  "professionalexperience": "HCL Technologies - Senior Software Engineer (February 2015 – Till Now) ",
+  "professionalexperience": "HCL Technologies - Project Lead (February 2015 – Till Now) ",
   "professionalexperience1": "HCL Technologies Mexico (July 2017 – June 2019) ",
   "professionalexperience2": "Holding B1/B2 Visa (USA) – Valid till 2028.",
-  "natureofwork": "Five plus years of experience as full stack developer in application development using J2EE, React JS, Docker, KIBANA and IBM ETL Data Stage",
-  "rolesresponsibilities": [
-    "Developed complex applications and updates throughout SDLC, including analyzing business requirements, developing technical specifications, planning, coding, testing implementation and QA.",
-    "Participate in scoping meeting to identify requirement for new projects and reconfirm requirement with relevant stakeholders.",
-    "Analyzing the Existing code and involved in modifying various classes and methods according to the new business needs.",
-    "Created various REST API’s for GET and POST requests as per the Business requirements.",
-    "Created Database Objects like tables, Views as per the Business requirements.",
-    "Developed Dashboard using Ext JS which will retrieve the data from the database using REST API’s.",
-    "Involved in writing technical design document, Test cases and performed unit testing.",
-    "Supported project leads & project managers in preparation of project review deliverables (like project ppt, audit documents, etc.)."
-  ],
   "project": [
     "Title : AML - Customer Due Diligence",
     "Client : The United Services Automobile Association(USAA)",
