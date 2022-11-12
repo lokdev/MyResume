@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "7399e1cdc97160945dd9",
-    "url": "/MyResume/static/css/main.057a525f.chunk.css"
+    "revision": "2daadd135d07692c0ca8",
+    "url": "/MyResume/static/css/main.ec55908d.chunk.css"
   },
   {
-    "revision": "7399e1cdc97160945dd9",
-    "url": "/MyResume/static/js/main.8d939889.chunk.js"
+    "revision": "2daadd135d07692c0ca8",
+    "url": "/MyResume/static/js/main.6f97a656.chunk.js"
   },
   {
     "revision": "c777bb308bc8e9d8e4f8",
     "url": "/MyResume/static/js/runtime~main.17fc0005.js"
   },
   {
-    "revision": "69d466dd6e59d2481a27",
-    "url": "/MyResume/static/css/2.e731d6bf.chunk.css"
+    "revision": "8bc85200a9a1cc076879",
+    "url": "/MyResume/static/css/2.1a7746a2.chunk.css"
   },
   {
-    "revision": "69d466dd6e59d2481a27",
-    "url": "/MyResume/static/js/2.646b8d7d.chunk.js"
+    "revision": "8bc85200a9a1cc076879",
+    "url": "/MyResume/static/js/2.93bd0ae3.chunk.js"
   },
   {
     "revision": "0372240c9eb52bd16c4f27269137ca18",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/MyResume/static/media/texture.394655a3.png"
   },
   {
-    "revision": "24f7e9266f9259b70533c225bbc1f35f",
+    "revision": "f89a78a9273dca0cdab40b3fce032f93",
     "url": "/MyResume/index.html"
   }
 ];
